@@ -19,7 +19,7 @@ class _HomeScreenState extends State<HomeScreen> {
         title: new Text('Home Screen'),
       ),
       body: Center(
-        child:  new Text('Welcome' + widget.username , style: TextStyle(fontSize: 20,fontWeight: FontWeight.bold,color: Colors.black),),
+        child:  new Text('Welcome ' + widget.username , style: TextStyle(fontSize: 20,fontWeight: FontWeight.bold,color: Colors.black),),
       )
     );
   }

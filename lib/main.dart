@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:stepper/home.dart';
+import 'package:stepper/stepper_touch.dart';
 
 void main() => runApp(MaterialApp(
-  home: MyStepper(),
+  home: StepperTouch(),
+//  home: MyStepper(),
   routes: {
 //    "/homescreen": (_) => new HomeScreen(),
   },
